@@ -92,5 +92,6 @@ fn main() {
 
     let square_point = Point { x: 0.0, y: 0.0 };
     let square = square(&square_point, 10.0);
+    // use abs() to avoid negative area
     println!("square area: {}", rect_area(&square).abs());
 }
